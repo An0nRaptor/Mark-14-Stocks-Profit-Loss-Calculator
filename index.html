@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Profit/Loss Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main-section">
+      <header><h1>Stock Profit/Loss Calculator</h1></header>
+      <label class="input-label" for="initial-price"
+        >Initial Price (₹):
+        <input
+          class="input"
+          id="initial-price"
+          type="number"
+          placeholder="Enter Purchase Price of Stock"
+          required
+      /></label>
+      <label class="input-label" for="stock-quantity"
+        >Stock Quantity :
+        <input
+          class="input"
+          id="stock-quantity"
+          type="number"
+          placeholder="Enter Quantity of Stock"
+          required
+      /></label>
+      <label class="input-label" for="current-price"
+        >Current Price (₹):
+        <input
+          class="input"
+          id="current-price"
+          type="number"
+          placeholder="Enter Current Price of Stock"
+          required
+      /></label>
+      <button id="submit-btn" class="btn-check">Check !!</button>
+      <div id="output-box" class="output"></div>
+    
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
